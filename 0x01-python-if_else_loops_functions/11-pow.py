@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 def pow(a, b):
-    if b == 0:
-        return 1
-    elif b == 1:
-        return a
-    else:
-        return(n*pow(n, b-1))
+    res = 0
+    for i in range(b):
+        res *= a
+    return res
