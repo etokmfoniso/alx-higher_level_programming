@@ -5,11 +5,11 @@
 class Rectangle:
     """ Real definition of a triangle """
 
-    def __init__(self, width = 0, height = 0):
-        """ initializes a triangle with private attributes 
+    def __init__(self, width=0, height=0):
+        """ initializes a triangle with private attributes
         Args:
-            width(int): width of the rectangle
-            height(int): height of the rectangle
+            width (int): width of the rectangle.
+            height (int): height of the rectangle.
         """
 
         self.width = width
@@ -17,7 +17,7 @@ class Rectangle:
 
     @property
     def width(self):
-        """Get/Set the width of the rectangle"""
+        """Get/Set the width of the rectangle."""
         return self.__width
 
     @width.setter
@@ -30,7 +30,7 @@ class Rectangle:
 
     @property
     def height(self):
-        """Get/Set the height of the triangle"""
+        """Get/Set the height of the triangle."""
         return self.__height
 
     @height.setter
