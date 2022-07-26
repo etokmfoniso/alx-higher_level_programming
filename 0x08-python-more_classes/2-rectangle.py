@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Class to define the Area and Perimeter of a rectangle"""
 
+
 class Rectangle:
     """ Define instances of a rectangle."""
     def __init__(self, width=0, height=0):
@@ -30,7 +31,7 @@ class Rectangle:
         """set/get the height"""
         return self.__height
 
-    @width.setter
+    @height.setter
     def height(self, value):
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
